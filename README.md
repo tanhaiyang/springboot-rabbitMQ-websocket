@@ -1,0 +1,2 @@
+# springboot-rabbitMQ-websocket
+springboot整合rabbitMQ和websocket，实现消息的发布和接收，并通过websocket实时推送数据到页面
