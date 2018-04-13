@@ -26,7 +26,7 @@ public class WebSocketServer {
 //		for(int i=0;i<100;i++) {
 //			Thread.sleep(1000);
 //			this.send("服务端推送："+i);
-//		}
+//		} 
 	}
 	@OnClose
 	public void onClose(Session s) {
