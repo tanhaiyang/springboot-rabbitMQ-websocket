@@ -98,8 +98,4 @@ public class AppConfig {
 		return BindingBuilder.bind(fanoutQueue3()).to(fanoutExchange2());
 	}
 	
-	@Bean
-	public ServerEndpointExporter serverEndpointExporter() {
-		return new ServerEndpointExporter();
-	}
 }
